@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    max-width: 1440px;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 0.5rem;
+
+    background-color: rgba(181, 219, 245, 0.667);
+    padding: 10px 8px;
+    margin: 0 1.5rem;
+
+    border-radius: 6px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 0.6rem;
+    padding-bottom: 1.3rem;
+    margin-right: 12px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+.yt-logo {
+    width: 15vw;
+    height: 12vh;
+}
+
+.searchbar {
+    width: 420px;
+    height: 35px;
+}
+
+.searchbutton {
+    width: 125px;
+    height: 3.5vh;
+    margin-bottom: 12px;
+}
+
+.video-links {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    width: 40%;
+    margin: 15px auto;
+}
+
+.uploadtext {
+    margin-bottom: 40px;
+}
+
+.see-more,
+.uploadtext {
+    font-size: 21px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+
+.featured-videos {
+    background-color: rgb(160, 160, 160);
+    width: 90%;
+    margin-top: 70px;
+    margin: auto;
+    padding: 10px 8px;
+}
+
+.featured-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.thumbnails {
+    background-color: rgb(221, 215, 218);
+    margin: 0 auto;
+
+    padding: 10px 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 1;
+
+    border-bottom: 1px dashed black;
+    border-top: 1px dashed black;
+}
+
+.item img{
+    width: 220px;
+    height: 150px;
+    border: 6px white solid;   
+    margin: 10px 0;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    flex: 1;
+
+    text-align: center;
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+    position: absolute;
+    bottom: 5;
+
+    padding: 8px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer-links ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.footer-links button {
+    background-color: rgb(255, 94, 0);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    width: 50px;
+    padding: 0 9px;
+}
