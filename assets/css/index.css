@@ -218,7 +218,7 @@ footer {
         text-align: center;
         font-size: 0.75rem;
         font-weight: lighter;
-        width: 25rem;
+        width: 20rem;
     }
 
     .uploadtext {
@@ -264,9 +264,9 @@ footer {
         background-color: black;
         color: white;
         height: 15vh;
-        width: 100%;
         display: flex;
         align-items: center;
+        flex-wrap: wrap;
     }
 
     .footer-links ul li a:visited{
