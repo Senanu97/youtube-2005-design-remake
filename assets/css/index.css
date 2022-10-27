@@ -166,9 +166,11 @@ footer {
 }
 
 @media (max-width: 1110px) {
+  
     body{
         width: 100%;
         box-sizing: border-box;
+        overflow-x: hidden;
     }
 
     header {
@@ -241,32 +243,47 @@ footer {
         padding: 0 10px;
         font-size: 0.61rem;
         align-items: center;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .featured-videos {
+        width: 70%;
+        margin: 0 auto;
     }
 
     .thumbnails {
-        width: 100%;
-
         display: flex;
-        flex-direction: row;
-        align-items: center;
+        flex-direction: column;
+        width: 60%;
         margin: 0 auto;
+        
     }
 
     .item {
         font-size: 0.4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .item img {
-        width: 5.5rem;
+        width: 7.5rem;
     }
 
     .footer-links {
         background-color: black;
         color: white;
-        height: 15vh;
-        width: 100%;
+        height: 20px;
         display: flex;
         align-items: center;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+        text-align: center;
     }
 
     .footer-links ul li a:visited{
