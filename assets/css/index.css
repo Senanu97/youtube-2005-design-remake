@@ -220,7 +220,7 @@ footer {
         text-align: center;
         font-size: 0.75rem;
         font-weight: lighter;
-        width: 25rem;
+        width: 20rem;
     }
 
     .uploadtext {
@@ -275,15 +275,10 @@ footer {
     .footer-links {
         background-color: black;
         color: white;
-        height: 20px;
+        height: 15vh;
+        width: 100%;
         display: flex;
         align-items: center;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-
-        text-align: center;
     }
 
     .footer-links ul li a:visited{
