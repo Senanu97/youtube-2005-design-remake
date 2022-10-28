@@ -15,6 +15,10 @@ Atrributions
         Photo by Hannah Bickmore: https://www.pexels.com/photo/portrait-of-woman-wearing-coat-12551545/
         
 Desktop 1440px        
+
 ![screencapture-127-0-0-1-5500-index-html-2022-10-27-14_37_13](https://user-images.githubusercontent.com/71466882/198332195-57936227-5c7b-4583-a1b5-423b01722f09.png)
+
+
 Mobile 375px
+
 ![photo_2022-10-28_19-09-47](https://user-images.githubusercontent.com/71466882/198713975-af107575-be17-44c2-a5f3-870d3c1ac62e.jpg)
